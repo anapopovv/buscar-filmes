@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    overflow-x: hidden;
+    list-style: none;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('Poppins-Regular.otf') format(opentype);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: 48vw;
+    background-color: #f3f3f3;
+    padding-top: 20px;
+    align-items: center;
+}
+
+#descricao {
+    width: 350px;
+    height: 30px;
+    padding-left: 10px;
+    border: 1px solid #5553E3;
+    border-radius: 5px;
+    outline: none;
+    font-family: poppins;
+    font-size: 11px;
+    color: #5553E3;
+}
+
+#descricao::placeholder {
+    color: #5553e377;
+    font-size: 11px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #5553E3;
+    border: none;
+    color: #f3f3f3;
+    font-family: poppins;
+    font-size: 11px;
+    cursor: pointer;
+    transition: .2s;
+    outline: none;
+}
+
+button:hover {
+    background-color: #6e6bfa;
+}
+
+#filme {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-filme {
+    width: 100px;
+}
+
+h2 {
+    font-family: poppins;
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+
+.data {
+    font-family: poppins;
+    font-size: 11px;
+    margin-bottom: 10px;
+}
+
+.resenha {
+    font-family: poppins;
+    font-size: 11px;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.avaliacao {
+    font-family: poppins;
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+.id {
+    font-family: poppins;
+    font-size: 11px;
+}
